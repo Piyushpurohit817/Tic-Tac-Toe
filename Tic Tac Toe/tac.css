@@ -1,0 +1,28 @@
+h1 {
+  margin: 10px 670px;
+  position: relative;
+  top: 170px;
+  left: 20px;
+}
+.container {
+  background: #89abe3;
+  margin: 180px 600px;
+  height: 300px;
+  width: 350px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  align-items: center;
+  justify-items: center;
+}
+.box {
+  font-family: cursive;
+  font-size: 60px;
+  border: 1px solid black;
+  width: 115px;
+  height: 99px;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+
